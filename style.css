@@ -1,0 +1,92 @@
+body {
+    background-image: url('https://i.pinimg.com/564x/80/bb/26/80bb26ecb3546bca59894298444a0c24.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #fff; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#contatos-list {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contact-details {
+    flex: 1;
+}
+
+.contact-actions button {
+    margin-left: 10px;
+}
+
+#contato-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+#contato-form input,
+#contato-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contato-form button {
+    background-color: #ff0202;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#contato-form button:hover {
+    background-color: #440000;
+}
+
+#salvar-btn {
+    background-color: #007bff;
+}
+
+#salvar-btn:hover {
+    background-color: #0056b3;
+}
