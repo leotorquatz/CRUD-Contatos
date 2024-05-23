@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // excluir contato
     function excluirContato(id) {
-        if (confirm("Tem certeza que deseja excluir este contato?")) {
+        if (confirm("Certeza que deseja excluir este contato?")) {
             fetch(`https://bakcend-fecaf-render.onrender.com/contatos/${id}`, {
                 method: 'DELETE',
             })
